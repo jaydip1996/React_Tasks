@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: white;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #333;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 80px;
+}
+
+.logo {
+  float: left;
+  color: white;
+  margin-left: 2rem;
+}
+
+input {
+  float: none;
+  color: black;
+  padding: 5px 25px;
+  margin: 1.8rem;
+  border-radius: 3px;
+  border-width: 1px;
+}
+
+.taskslist-container {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.tasklist-container ul li .completed{
+  text-decoration: line-through;
+}
